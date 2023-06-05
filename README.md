@@ -1,4 +1,4 @@
-#NETAFIM PROJECT
+NETAFIM PROJECT
 
 In this project, I have tried to imitate the style of Netafim, an international irrigation company. 
 
