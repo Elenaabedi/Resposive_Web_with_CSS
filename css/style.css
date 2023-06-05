@@ -1,0 +1,1156 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:wght@300;400;500;600&display=swap');
+
+html {
+    font-family: 'Caveat', cursive;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(65, 64, 66);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2.3rem;
+    font-weight: 100;
+    color: rgb(11, 125, 214);
+}
+
+h2 {
+    font-size: 1rem;
+    font-weight: 100;
+    font-weight: bold;
+}
+
+p {
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.button-section {
+    background-color: rgb(11, 125, 214);
+    color: white;
+    border: none;
+    padding: 15px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.arrow {
+    margin-left: 10px;
+}
+
+.subbutton-section {
+    background-color: transparent;
+    color: rgb(11, 125, 214);
+    border: none;
+    border-bottom: 2px solid rgb(11, 125, 214);
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 0;
+    font-weight: bold;
+    font-size: large;
+    text-align: left;
+}
+
+/* Barra menú */
+
+.header-menu {
+    background-color: rgb(65, 64, 66);
+    height: 40px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.header-menu-rrss {
+    padding-right: 20px;
+}
+
+.header-menu-rrss img {
+    padding-left: 10px;
+}
+
+.header-menu-links span {
+    padding-left: 10px;
+}
+
+.header-menu-links span:last-child {
+    padding-right: 2vw;
+}
+
+.header-menu-links span a {
+    color: azure;
+    text-decoration: none;
+}
+
+.header-menu-links-earth {
+    margin-right: 5px;
+}
+
+/* Section submenú */
+
+.header-submenu-div-menu-responsive {
+    display: none;
+}
+
+.menu-toolbar {
+    display: none;
+}
+
+.header-submenu {
+    margin-block-start: 40px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 10;
+}
+
+.header-submenu-div {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2vw;
+    margin-left: 2vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    align-items: center;
+    text-align: center;
+}
+
+.header-submenu-div-menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-submenu-div-menu div {
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: 2px solid rgb(11, 125, 214);
+    border-left: 1px solid rgb(11, 125, 214);
+}
+
+.header-submenu-div-menu div a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(65, 64, 66);
+}
+
+.header-submenu-div-menu div:last-child {
+    border-right: 0px;
+}
+
+.header-submenu-div-menu div:first-child {
+    border-left: 0px;
+}
+
+/* Section Video Principal*/
+
+.header-video {
+    max-height: 860px;
+    overflow: hidden;
+    position: relative;
+}
+
+.header-video-width {
+    width: 100%;
+    height: auto;
+}
+
+/* Text overvideo */
+
+.text-overvideo {
+    position: absolute;
+    background-color: rgb(255, 255, 255, 0.65);
+    top: 55%;
+    width: 40%;
+}
+
+.text-overvideo-div {
+    margin: 2vw;
+}
+
+.text-overvideo-div h1 {
+    color: rgb(65, 64, 66);
+    font-size: 2.5vw;
+    font-weight: 100;
+    margin-bottom: 0%;
+}
+
+.text-overvideo-div p {
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.tm {
+    font-size: 30px;
+}
+
+/* Primera sección*/
+
+.firts-section div {
+    width: 70%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.firts-section div p {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+/* Crop knowledge sharing */
+
+.section-cropknowledge {
+    margin-top: 30px;
+    background-color: rgb(233, 233, 233);
+}
+
+.section-cropknowledge-div {
+    padding-top: 1px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 40px;
+}
+
+.section-cropknowledge-div-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-cropknowledge-div-div div {
+    margin: 10px;
+}
+
+
+.section-cropknowledge-div-div div img {
+    width: 100%;
+}
+
+.section-cropknowledge-div-div-name {
+    width: 30%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/* Section You’ll never turn a valve again */
+
+.section-valve {
+    display: flex;
+}
+
+.section-valve-div-img {
+    width: 50%;
+    max-height: 650px;
+}
+
+.section-valve-div-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.section-valve-div-text {
+    width: 50%;
+}
+
+.section-valve-div-text-margins {
+    margin: 40px;
+    margin-right: 40%;
+}
+
+/* Section Sustainability means profitability */
+
+.section-sustainability {
+    display: flex;
+}
+
+.section-sustainability-div-text {
+    width: 50%;
+}
+
+.section-sustainability-div-text-margins {
+    margin: 40px;
+    margin-left: 40%;
+}
+
+.section-sustainability-logos {
+    max-width: 50%;
+}
+
+.section-sustainability-div-text-margins img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.section-valve-div-video {
+    width: 50%;
+    height: auto;
+}
+
+.section-valve-div-video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+/* Section Precision irrigation solutions */
+
+.section-irrigation-solutions-div-textresponsive {
+    display: none;
+}
+
+.section-irrigation-solutions-grey {
+    background-color: rgb(233, 233, 233);
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.section-irrigation-solutions-grey h1 {
+    margin: 0;
+}
+
+.section-irrigation-solutions-grey p {
+    margin-bottom: 0;
+}
+
+.section-irrigation-solutions-text-and-image {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.section-irrigation-solutions-text-and-image img {
+    width: 100%;
+}
+
+.section-irrigation-solutions-div-textoverimage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-irrigation-solutions-div-textoverimage div {
+    display: flex;
+    justify-content: center;
+}
+
+.section-irrigation-solutions-div-textoverimage div {
+    padding: 10px 20px 10px 0px;
+    width: 15%;
+    display: inline;
+    border-radius: 30px 0px 0px 30px;
+}
+
+.section-irrigation-solutions-div-textoverimage div a {
+    background-color: rgb(255, 255, 255, 0.8);
+    padding: 10px 20px 10px 20px;
+    margin: 45px;
+    text-decoration: none;
+    color: rgb(11, 125, 214);
+    font-weight: bold;
+    font-size: 0, 5vw;
+    white-space: nowrap;
+    /* No pasará a la segona linia */
+}
+
+.section-irrigation-solutions-div-textoverimage div i {
+    position: absolute;
+    color: white;
+    background-color: rgb(11, 125, 214);
+    padding: 20px;
+    border-radius: 30px;
+    top: -10px;
+}
+
+/* Section Growers stories */
+
+.section-grower-stories {
+    margin-right: 20%;
+    margin-left: 20%
+}
+
+.section-grower-stories-box {
+    position: relative;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+.section-grower-stories-video {
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    top: 23%;
+}
+
+.section-grower-stories-video video {
+    width: 50%;
+}
+
+.section-grower-stories-box-text {
+    margin-inline-start: 55%;
+    width: 40%;
+}
+
+.relleno {
+    position: absolute;
+    z-index: -1;
+    background-color: rgb(233, 233, 233);
+    height: 500px;
+    width: 85%;
+    margin-block-start: -4.3%;
+    margin-inline-start: 15%;
+}
+
+/* Section What's new */
+
+.section-whats-new {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 70px;
+    margin-bottom: 7vh;
+}
+
+.section-whats-new-distribution {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-whats-new-distribution-contents {
+    background-color: rgb(233, 233, 233);
+    width: 48%;
+}
+
+.section-whats-new-distribution-margins {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5vw;
+}
+
+.section-whats-new-distribution-title {
+    font-size: xx-large;
+    font-weight: 100;
+    padding-bottom: 15px;
+    border-bottom: 2px solid white;
+}
+
+.section-whats-new-distribution-objects {
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 2px solid white;
+    min-height: min-content;
+}
+
+.section-whats-new-distribution-objects-image {
+    width: 100%;
+    height: auto;
+    margin-right: 15px;
+}
+
+.section-whats-new-distribution-objects-image-e {
+    width: 45%;
+    height: auto;
+    margin-right: 15px;
+}
+
+.section-whats-new-distribution-objects-image-e img {
+    width: 100%;
+}
+
+.section-whats-new-distribution-objects-image img {
+    width: 100%;
+}
+
+.section-whats-new-distribution-objects-text {
+    margin-left: 15px;
+}
+
+.date-news-section {
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.paragraf-news-section {
+    font-size: large;
+    width: auto;
+    height: 65px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.section-whats-new-distribution-objects button {
+    margin-bottom: 20px;
+}
+
+/* Form */
+
+.form-section{
+    background-color: rgb(11, 125, 214);
+    width: 100%;
+    display: flex;
+}
+
+.form-section h1{
+    padding-top:40px;
+    color: white;
+}
+
+.div-form-section{
+    width: 50%;
+    margin-left: 2vw;
+}
+
+form label,input,textarea{
+    width: 90%;
+}
+
+form div{
+    margin-bottom: 20px;
+}
+
+label{
+    font-weight: bold;
+    color: white;
+}
+
+.textlegal{
+    color: rgb(46, 46, 46);
+    width: 90%;
+}
+
+.image-form-div{
+    width:50%;
+    height: auto;
+}
+
+.image-form-div img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.button-section-form {
+    background-color:rgb(52,55,80);
+    color: white;
+    border: none;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.arrow {
+    margin-left: 10px;
+}
+
+/* Firts footer section */
+
+.firts-footer-section {
+    background-color: rgb(65, 64, 66);
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.menu-footer {
+    padding-top: 15px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu-footer div {
+    margin-right: 2vw;
+}
+
+.menu-footer div a {
+    color: rgb(233, 233, 233);
+    text-decoration: none;
+    border-bottom: 2px solid rgb(11, 125, 214);
+}
+
+.menu-footer div img {
+    margin-right: 5px;
+}
+
+.distribution-submenu-footer {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.distribution-submenu-footer-div {
+    width: 20%;
+    margin-right: 4vw;
+}
+
+.distribution-submenu-footer-div p {
+    color: rgb(233, 233, 233);
+    text-align: left;
+    margin-top: 0;
+    line-height: 150%;
+}
+
+.distribution-submenu-footer-div div a {
+    color: rgb(233, 233, 233);
+    text-align: left;
+    text-decoration: none;
+    line-height: 170%;
+}
+
+.logo-netafim-footer {
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+}
+
+.logo-orbia {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.rrss-footer-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rrss-footer-section div p {
+    color: rgb(233, 233, 233);
+    font-weight: bold;
+}
+
+.rrss-distribution-footer {
+    display: flex;
+    align-items: center;
+}
+
+/* Second footer section */
+
+.second-footer-section {
+    background-color: rgb(46, 46, 46);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-footer-section a {
+    color: rgb(233, 233, 233);
+    font-weight: bold;
+    border-right: 1px solid rgb(233, 233, 233);
+    border-left: 1px solid rgb(233, 233, 233);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.second-footer-section a:first-child {
+    border-left: 0;
+}
+
+.second-footer-section a:last-child {
+    border-right: 0;
+}
+
+/*==================================================================================================================*/
+
+@media (max-width: 1415px) {
+
+    .header-menu-links {
+        margin-right: 3vw;
+    }
+
+    /* Section submenú */
+
+    .logo-netafim-header {
+        margin-left: 3vw;
+    }
+
+    .header-submenu-div {
+        position: relative;
+    }
+
+    .header-submenu-div-menu {
+        visibility: hidden;
+        display: none;
+    }
+
+    .menu-toolbar {
+        display: flex;
+        color: rgb(11, 125, 214);
+        margin-right: 3vw;
+    }
+
+    .header-submenu-div-menu-responsive {
+        position: absolute;
+        display: flex;
+        justify-content: flex-end;
+        top: 57px;
+        width: 100%;
+    }
+
+    .header-submenu-div-menu-responsive ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-submenu-div-menu-responsive li {
+        background-color: rgb(255, 255, 255);
+        padding: 1vw;
+        text-decoration: none;
+        color: rgb(11, 125, 214);
+        border-bottom: 2px solid rgb(11, 125, 214);
+    }
+
+    .header-submenu-div-menu-responsive li a {
+        text-decoration: none;
+        color: rgb(11, 125, 214);
+    }
+
+    /* Text over video */
+
+    .text-overvideo {
+        top: 45%;
+    }
+
+    .text-overvideo-div {
+        margin: 3vw;
+    }
+
+    .tm {
+        font-size: 15px;
+    }
+
+    /* Primera sección*/
+
+    .firts-section div {
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
+
+    /* Crop knowledge sharing */
+
+    .section-cropknowledge-div {
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
+
+    /* Section You’ll never turn a valve again */
+
+    .section-valve-div-text-margins {
+        margin-right: 3vw;
+    }
+
+    /* Section Sustainability means profitability */
+
+    .section-sustainability-div-text-margins {
+        margin-left: 3vw;
+    }
+
+    /* Section Precision irrigation solutions */
+
+    .section-irrigation-solutions-grey {
+        padding-left: 3vw;
+        padding-right: 3vw;
+    }
+
+    .section-irrigation-solutions-div-textoverimage {
+        display: none;
+    }
+
+    .section-irrigation-solutions-div-textresponsive {
+        display: block;
+        margin: 3vw;
+    }
+
+    .section-irrigation-solutions-div-textresponsive div {
+        border-bottom: 2px solid rgb(11, 125, 214);
+    }
+
+    .section-irrigation-solutions-div-textresponsive div p a {
+        color: rgb(46, 46, 46);
+        text-decoration: none;
+    }
+
+    /* Section Growers stories */
+
+    .section-grower-stories {
+        margin-right: 3vw;
+        margin-left: 3vw;
+    }
+
+    .section-grower-stories-box {
+        margin-right: 10%;
+        margin-left: 10%;
+        padding-top: 6%;
+        padding-bottom: 8%;
+
+    }
+
+    .section-grower-stories-video {
+        top: 27%;
+    }
+
+    /* Section form */
+
+    .form-section{
+        display: block;
+    }
+    
+    .div-form-section{
+        width: 100%;
+        margin: 0%;
+    }
+
+    .div-form-section h1{
+        margin-left: 2vw;
+    }
+
+    .image-form-div{
+        display: none;
+    }
+
+    form label,input,textarea{
+        width: 95%;
+        margin-left: 2vw;
+    }
+
+    form button{
+        margin-left: 2vw;
+    }
+    
+    .textlegal{
+        width: 95%;
+        margin-left: 2vw;
+    }
+
+    /* Firts footer section */
+
+    .firts-footer-section {
+        padding-left: 3vw;
+        padding-right: 3vw;
+    }
+
+}
+
+/*==================================================================================================================*/
+
+@media (max-width: 1030px) {
+    .header-menu-links {
+        display: none;
+    }
+
+    .header-menu-rrss {
+        margin-right: 3vw;
+    }
+
+    /* Text overvideo */
+
+    .text-overvideo-div {
+        margin-left: 3vw;
+    }
+
+    .tm {
+        font-size: 10px;
+    }
+
+    /* Section Growers stories */
+
+    .section-grower-stories-box {
+        padding-top: 5%;
+        padding-bottom: 5%;
+        display: block;
+    }
+
+    .section-grower-stories-video {
+        position: static;
+        z-index: 5;
+        width: 100%;
+        top: 23%;
+    }
+
+    .section-grower-stories-video video {
+        position: static;
+        width: 100%;
+    }
+
+    .section-grower-stories-box-text {
+        position: relative;
+        margin-inline-start: 0%;
+        width: 100%;
+        background-color: rgb(233, 233, 233);
+    }
+
+    .section-grower-stories-box-text h1,
+    p,
+    h2 {
+        margin-bottom: 0vh;
+        padding-left: 4vw;
+        padding-right: 4vw;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+
+    }
+
+    .relleno {
+        display: none;
+    }
+
+    /* section news */
+
+    .section-whats-new{
+        width: 90%;
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+
+    .section-whats-new-distribution{
+        display: block;
+    }
+
+    .section-whats-new-distribution-contents{
+        width: 100%;
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+
+    .section-whats-new-distribution-margins button{
+        margin-bottom: 40px;
+    }
+
+    .section-whats-new-distribution-objects {
+        display: block;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .section-whats-new-distribution-objects-image {
+        padding: 2vw;
+        padding-bottom: 0;
+        width: 90%;
+    }
+
+    .section-whats-new-distribution-objects-image-e {
+        padding: 2vw;
+        padding-bottom: 0;
+        width: 90%;
+    }
+
+    .date-news-section {
+        padding-bottom: 0;
+    }
+
+    .title-news-section {
+        margin-top: 0;
+        padding-bottom: 0;
+    }
+
+    .paragraf-news-section {
+        height: 45px;
+        padding-top: 0;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+    .section-whats-new-distribution-objects-text button {
+        margin: 2vw;
+    }
+
+}
+
+/*==================================================================================================================*/
+
+@media (max-width: 920px) {
+
+    /* Text overvideo */
+
+    .text-overvideo {
+        top: 35%;
+        width: 80%;
+    }
+
+    .text-overvideo-div h1 {
+        font-size: 2.5vh;
+    }
+
+    .text-overvideo-div {
+        margin-left: 3vw;
+    }
+
+    .tm {
+        font-size: 10px;
+    }
+
+}
+
+/*==================================================================================================================*/
+
+@media (max-width: 700px) {
+
+    /* Text overvideo */
+
+    .text-overvideo {
+        display: none;
+    }
+
+    /* Primera sección*/
+
+    .firts-section div {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .firts-section div p {
+        padding-left: 0;
+        padding-bottom: 20px;
+        margin-top: 0;
+    }
+
+    /* Crop knowledge sharing */
+
+    .section-cropknowledge-div p{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    /* Section You’ll never turn a valve again */
+
+    .section-valve {
+        display: block;
+    }
+
+    .section-valve-div-img {
+        width: 100%;
+    }
+
+    .section-valve-div-text {
+        width: 100%;
+    }
+
+    .section-valve-div-text-margins {
+        margin:2vw;
+    }
+
+    .section-valve-div-text-margins h2,p{
+        padding: 0%;
+    }
+
+    .section-valve-div-text-margins p{
+        padding-bottom:30px;
+    }
+
+    .section-valve-div-text-margins button{
+        margin-bottom:30px;
+    }
+
+    /* Section Sustainability means profitability */
+
+    .section-sustainability {
+        display: block;
+        background-color: rgb(233, 233, 233);
+    }
+
+    .section-sustainability-div-text {
+        width: 100%;
+    }
+
+    .section-sustainability-div-text-margins {
+        margin: 40px;
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+
+    .section-sustainability-div-text-margins h1{
+        padding-top: 40px;
+    }
+
+    .section-sustainability-logos {
+        max-width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .section-sustainability-div-text-margins img {
+        width: 100%;
+    }
+
+    .section-valve-div-video {
+        width: 100%;
+    }
+
+    /* Section Precision irrigation solutions */
+
+    .section-irrigation-solutions-grey {
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+
+    /* Section Growers stories */
+
+   .section-grower-stories-box-text p{
+    padding-left: 30px;
+    padding-right:30px;
+    padding-bottom: 30px;
+   }
+
+    /* Section What's new */
+
+    .section-whats-new-distribution {
+        display: block;
+    }
+
+    .section-whats-new-distribution-contents {
+        width: 100%;
+    }
+
+    .section-whats-new-distribution-objects {
+        display: flex;
+        margin-bottom: 20px;
+        border-bottom: 2px solid white;
+        min-height: min-content;
+    }
+
+    .section-whats-new-distribution-objects-image-e {
+        width: 45%;
+    }
+
+    .section-whats-new-distribution-objects-image-e img {
+        width: 100%;
+    }
+
+    .section-whats-new-distribution-objects-image img {
+        width: 100%;
+    }
+
+    .date-news-section {
+        padding-top: 20px;
+    }
+
+    .section-whats-new-distribution-margins button{
+        margin-bottom: 40px;
+    }
+
+    /* Firts footer section */
+
+
+    .distribution-submenu-footer-div {
+        width: 30%;
+    }
+
+}
